@@ -3,6 +3,7 @@ public class FuncionarioPassageiro {
     private float salario;
     private float horas;
 
+    // getters
     public String getNomeFuncionarioPassageiro(){
         return this.nome;
     }
@@ -13,9 +14,11 @@ public class FuncionarioPassageiro {
         return this.horas;
     }
 
+    // setters
     public void setFuncionarioPassageiro(String nome, float num, float horas){
         this.nome = nome;
         this.salario = num;
         this.horas = horas;
     }
+
 }
