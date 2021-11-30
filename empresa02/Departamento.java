@@ -84,6 +84,8 @@ public class Departamento {
         for(Funcionario f : this.funcionarios){
             f.aumentaSalarioFuncionario(percent);
         }
-        
+        for(FuncionarioPassageiro fp : this.funcionariosPassageiros){
+            fp.aumentaSalarioFuncionario(percent);
+        }
     }
 }

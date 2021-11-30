@@ -23,9 +23,13 @@ public class App{
         ff4.setFuncionario("Carlos", 2500);
         ff5.setFuncionario("Henrique", 6500);
 
-        fp1.setFuncionarioPassageiro(ff3, 7);
-        fp2.setFuncionarioPassageiro(ff4, 3);
-        fp3.setFuncionarioPassageiro(ff5, 5);
+
+        fp1.setFuncionario("Tales", 3700);
+        fp2.setFuncionario("Livia", 9850);
+        fp3.setFuncionario("Joana", 5600);
+        fp1.setHorasFuncionarioPassageiro(7);
+        fp2.setHorasFuncionarioPassageiro(3);
+        fp3.setHorasFuncionarioPassageiro(5);
 
         // set Departamentos
         Departamento moda = new Departamento();
@@ -74,6 +78,7 @@ public class App{
         atacadojava.imprimeInfosDepartamentos();
 
         // Aumento salaria do funcionario, departamento e da empresa
+        System.out.println("Realizando o reajusta anual salarial...\n");
         ff1.aumentaSalarioFuncionario(20);
         moda.aumentaSalarioDepartamento(50);
         atacadojava.aumentaSalarioEmpresa(10);

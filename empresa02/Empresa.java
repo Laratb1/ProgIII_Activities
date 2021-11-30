@@ -9,7 +9,6 @@ public class Empresa {
     private String presidente;
     private int quantFuncionarios;
     private Set<Departamento> departamentos = new HashSet<>();
-    //private Set<FuncionarioFixo> funcionariosFixos = new HashSet<>();
 
     //getters
     public String getNomeEmpresa(){
@@ -27,9 +26,6 @@ public class Empresa {
     public int getQuantTotalFuncionariosEmpresa(){
         return this.quantFuncionarios;
     }
-    /*public List<FuncionarioFixo> getFuncionariosFixos(){
-        return new LinkedList<FuncionarioFixo>(funcionariosFixos);
-    }*/
 
     //setters
     public void setNomeEmpresa(String nome){
